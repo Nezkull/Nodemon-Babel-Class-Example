@@ -1,3 +1,5 @@
+console.dir('hello');
+
 const handleResponse = (xhr) => {
       const content = document.querySelector("#content");
       
