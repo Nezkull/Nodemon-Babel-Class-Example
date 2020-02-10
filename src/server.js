@@ -10,6 +10,7 @@ const urlStruct = {
   '/': htmlHandler.getIndex,
   '/success': jsonHandler.success,
   '/badRequest': jsonHandler.badRequest,
+    '/bundle.js': htmlHandler.getBundle,
   notFound: jsonHandler.notFound,
 };
 
